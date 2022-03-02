@@ -2,7 +2,7 @@ document.getElementById('error-message').style.display = 'none';
 const loadSearchText = () => {
     const searchBox = document.getElementById('search-field');
     const searchText = searchBox.value;
-    //console.log(searchText);
+
     searchBox.value = '';
     if (searchText == '') {
         document.getElementById('error-message').style.display = 'block';
@@ -43,10 +43,6 @@ const phoneDetails = (id) => {
 
 const displayphoneDetails = (phoneDetail) => {
     console.log(phoneDetail);
-
-    //if(phoneDetail.releaseDate == ''){
-    //phoneDetail.releaseDate = 'No release data';
-    // }
 
     const phoneDetailShow = document.getElementById('phone-Details');
     phoneDetailShow.innerHTML = '';
