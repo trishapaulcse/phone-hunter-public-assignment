@@ -28,7 +28,7 @@ const displayData = phones => {
         <div class ="card-body">
         <h5 class ="card-text">${phone.brand}</h5>
         <p class="card-text">${phone.phone_name}</p>
-        <button class ="bg-primary" onclick="phoneDetails('${phone.slug})">Details</button>
+        <button class ="bg-primary" onclick="phoneDetails('${phone.slug}')" >Details</button>
         </div>
         <p class ="card-text text-center">${phone.slug}</p>
         `;
