@@ -14,10 +14,20 @@
 <body class="bg-success">
     <h2 class="text-center text-danger ">Search your favourite phone</h2>
 
-    <div class="input-group mb-3 mx-auto w-50">
-        <input type="text" class="form-control" placeholder="Search phone" aria-label="Recipient's username"
-            aria-describedby="button-addon2">
-        <button onclick="searchphone()" class="btn btn-outline-dark" type="button" id="button-search">Search</button>
+    <div class="input-group mb-3 mt-5 mx-auto w-50">
+        <input id="input-field" type="text" class="form-control" placeholder="Search phone"
+            aria-label="Recipient's username" aria-describedby="button-addon2">
+        <button id="search-button" onclick="loadSearchText()" class="btn btn-outline-dark" type="button"
+            id="button-search">Search</button>
+    </div>
+    <section>
+        <div id="phone-list" class="row row-cols-1 row-cols-md-3 g-4">
+        </div>
+    </section>
+    <div>
+        <p id="">
+
+        </p>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
