@@ -48,7 +48,7 @@ const displayphoneDetails = (phoneDetail) => {
     phoneDetailShow.innerHTML = '';
     phoneDetailShow.innerHTML = `
     <div class = "card h-100 mx-auto">
-    <img class "w-25 mx-auto mt-2" src="${phoneDetail.image}" class="card-img-top" alt='
+    <img class "w-25 mx-auto mt-2" src="${phoneDetail.image}" class="card-img-top">
     <div class ="card-body text-center">
     <p class ="card-text"> <b>ChipSet:</b> ${phoneDetail.mainFeatures.chipSet}</p>
     <p class ="card-text"> <b>DisplaySize:</b> ${phoneDetail.mainFeatures.displaySize}</p>
